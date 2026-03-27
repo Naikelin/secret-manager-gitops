@@ -2,3 +2,4 @@ creation_rules:
   - path_regex: \.yaml$
     encrypted_regex: '^(data|stringData)$'
     kms: arn:aws:kms:us-east-1:000000000000:alias/sops-secrets
+    age: age1v0kj30lq3ms08909fvlw4s7d667l822tnjlrgq628hp6jrsdnvzsearc33
