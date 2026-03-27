@@ -1,4 +1,4 @@
 creation_rules:
   - path_regex: \.yaml$
     encrypted_regex: '^(data|stringData)$'
-    kms: arn:aws:kms:us-east-1:000000000000:key/9393e8b2-6930-4ff2-a038-8a2ca1f3b747
+    kms: arn:aws:kms:us-east-1:000000000000:alias/sops-secrets
